@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body, html {
+    background-color: #000000;
+    color: white;
+    height: 100%;
+  }
+  
+  /* 1Nav Bar  */
+  
+  .headNav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    border-bottom: 2px solid white;
+  }
+   li {
+     margin: 16px;
+   }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  h1 {
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+  } 
+  
+  /* 2Hero Image & Text */
+  .hero-image1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/RVA_1.webp");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  hr {
+    margin: 20px;
+  }
+  
+  h2 {
+    font-size: 35px;
+    text-shadow: 2px 2px black;
+  }
+  
+  /* information */
+  .information-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/skyline.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+  }
+  
+  .information-box > p {
+    font-size: 25px;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  /* 4footer */
+  footer {
+    margin-top: 20px;
+    border-top: 2px solid white;
+  }
+  
+  footer > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  footer > p {
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  #Logo {
+    height: 25px;
+    position: absolute;
+    right: 0;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  .address {
+    font-size: 30px;
+  }
+  
+  .description {
+    margin: 0 25% 0 25%
+  }
+  
+
+  /*  5Image Container */
+  .imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .toDoImage {
+    opacity: 0.9;
+    width: 50%;
+    height: 50%;
+  }
+  
+  
+  table {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* The hero image */ 
+  .hero-image2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Images/RVASunrise_1.webp");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* 6Contact Form */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    margin: 10% 25% 0 25%;
+  }
+  
+  label {
+    font-size: 25px;
+  }
